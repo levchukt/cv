@@ -1,0 +1,40 @@
+.header {
+    min-height: 80px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // &__logo {}
+
+    // &__menu {}
+
+    &__hire {
+        background-color: transparent;
+    }
+}
+
+.menu-header {
+
+    &__list {
+        display: flex;
+        gap: 25px;
+    }
+
+    &__link {
+        color: #fff;
+    }
+
+    &__link a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 27px;
+
+        &:hover {
+            color: $orange;
+        }
+    }
+}
